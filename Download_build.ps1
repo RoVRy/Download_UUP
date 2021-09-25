@@ -6,8 +6,6 @@ Param (
     [string]$DownloadDir
 )
 
-Write-Host $FilesDir
-
 if ($FilesDir -eq "") {
     $FilesDir = ".\"
 }
